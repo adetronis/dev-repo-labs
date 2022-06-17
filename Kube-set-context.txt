@@ -1,0 +1,7 @@
+kubectl config set-context dev --namespace=development \
+  --cluster=kubernetes-admin \
+  --user=kubernetes-admin
+
+kubectl config set-context prod --namespace=production \
+  --cluster=kubernetes-admin \
+  --user=kubernetes-admin
