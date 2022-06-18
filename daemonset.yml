@@ -1,12 +1,8 @@
 apiVersion: apps/v1
 kind: DaemonSet
 metadata:
-<<<<<<< HEAD
   name: ns
-=======
-  name: nn
   namespace: dev-repo-labs
->>>>>>> 1246c56 (commit of dev-repo-labs)
   labels:
     k8s-app: fluentd-logging
 spec:
